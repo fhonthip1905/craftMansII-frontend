@@ -1,0 +1,39 @@
+@import '../abstracts/variables';
+
+// Desktop devices
+.outter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: $bg-component;
+}
+
+.container-inner {
+  width: 80%;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Mobile devices
+@media (max-width: 768px) {
+  .outter {
+    height: 80px; // ลดขนาดความสูงสำหรับ mobile
+  }
+
+  .container-inner {
+    width: 90%; // เพิ่มพื้นที่ให้กับ container บนหน้าจอเล็ก
+  }
+
+  .container-fluid {
+    align-items: flex-start; // จัดตำแหน่งให้อยู่ทางซ้าย
+  }
+
+  .icon-user {
+    margin-top: 10px; // เพิ่มระยะห่างระหว่าง UserIcon และ Logo สำหรับ mobile
+  }
+}

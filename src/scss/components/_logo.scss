@@ -1,0 +1,28 @@
+@import '../abstracts/variables';
+
+.box-logo {
+    display: flex;
+    background-color: $bg-component;
+}
+
+.box-logo-text{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+} 
+
+.text-logo-y {
+    font-size: 24px;
+    color: $text-color-y;
+    margin: 0;
+}
+.text-logo-w {
+    font-size: 24px;
+    color: $text-color-w;
+    margin: 0;
+}
+
+.logo-link {
+    text-decoration: none;
+}

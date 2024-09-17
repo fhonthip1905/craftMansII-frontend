@@ -5,7 +5,9 @@ import Router from "./router/router";
 
 function App() {
   return (
-   <Router />
+    <div className="container-background">
+        <Router />
+      </div>
   );
 }
 

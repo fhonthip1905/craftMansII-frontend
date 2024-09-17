@@ -3,13 +3,14 @@ import SearchPage from "../pages/Searchpage";
 import ProductPage from "../pages/Productpage";
 import HomePage from "../pages/Homepage";
 import ShopPage from "../pages/ShopPage";
+import Header from "../components/header";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <>
-        <h1>header</h1>
+        <Header />
         <Outlet />
         <h1>footer</h1>
       </>
