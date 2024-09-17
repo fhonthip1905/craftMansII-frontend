@@ -4,6 +4,7 @@ import ProductPage from "../pages/Productpage";
 import HomePage from "../pages/Homepage";
 import ShopPage from "../pages/ShopPage";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
       <>
         <Header />
         <Outlet />
-        <h1>footer</h1>
+        <Footer/>
       </>
     ),
     children: [

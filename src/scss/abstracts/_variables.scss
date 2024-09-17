@@ -2,18 +2,27 @@
 $primary-color: #FFA600;
 $bg-page: #171717;
 $bg-component: #373737;
-$text-color-y: #FFA600;
-$text-color-w: #FFFFFF;
-$text-color-b: #171717;
-$text-color-success: #147E47;
-$text-color-danger: #FB7185;
-$text-color-disable: #D4D4D8;
+$color-y: #FFA600;
+$color-w: #FFFFFF;
+$color-b: #171717;
+$color-success: #147E47;
+$color-danger: #FB7185;
+$color-disable: #D4D4D8;
 
-// font
+// Font sizes
+$font-detail: 16px;
+$font-content: 20px;
+$font-header: 36px;
+$font-header-extra: 48px;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
 
 
 
 p, .text-success-h1{
-    color: $text-color-y;
+    color: $color-y;
  }
 

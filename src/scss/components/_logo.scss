@@ -7,19 +7,20 @@
 
 .box-logo-text{
     display: flex;
-    font-size: 24px;
-    font-weight: bold;
     align-items: center;
+    justify-content: center;
 } 
 
 .text-logo-y {
-    font-size: 24px;
-    color: $text-color-y;
+    font-size: $font-header;
+    font-weight:$font-weight-bold;
+    color: $color-y;
     margin: 0;
 }
 .text-logo-w {
-    font-size: 24px;
-    color: $text-color-w;
+    font-size: $font-header;
+    font-weight:$font-weight-bold;
+    color: $color-w;
     margin: 0;
 }
 
