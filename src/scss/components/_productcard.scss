@@ -1,0 +1,25 @@
+.btn-productcard{
+    width: 188px;
+}
+
+
+.card-product{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: unset;
+}
+.card-img-top{
+    width: 80px;
+    height: 240px;
+}
+
+.card-title {
+    color: $color-y;
+    font-size: $font-content;
+    font-weight: $font-weight-bold;
+}
+.card-text {
+    color: $color-w;
+    font-size: $font-detail;
+}

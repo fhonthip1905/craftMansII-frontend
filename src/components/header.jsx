@@ -12,9 +12,9 @@ export default function Header() {
             <Logo />
           </div>
           <div className="nav-rigth">
-            {/* <div className="icon-user">
+            <div className="icon-user">
               <UserIcon />
-            </div> */}
+            </div>
             <div className="icon-user">
               <Button bg={"btn-yellow-02"}>Fhonthip</Button>
             </div>
