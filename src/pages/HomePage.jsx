@@ -1,8 +1,10 @@
+import HeroContainer from "../components/HeroContainer";
 
 export default function HomePage() {
   return (
-    <div>
-      <h1>🌻Home page🌻</h1>
+    <div className="container content">
+      <HeroContainer/>
+      Beer types Reccoment News
     </div>
   );
 }

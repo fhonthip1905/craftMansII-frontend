@@ -10,6 +10,7 @@ $color-danger: #FB7185;
 $color-disable: #D4D4D8;
 
 // Font sizes
+$font-detail-mobile: 14px;
 $font-detail: 16px;
 $font-content: 20px;
 $font-header: 36px;
@@ -21,8 +22,18 @@ $font-weight-bold: 700;
 $font-weight-extra-bold: 800;
 
 
-
-p, .text-success-h1{
+@mixin important-button-outline-yellow {
+    border-radius: 8px;
+    border: $color-y solid 1;
     color: $color-y;
- }
+    background-color: $color-b;
+}
+  
+@mixin important-button-yellow {
+    border-radius: 8px;
+    color: $color-b;
+    background-color: $color-y;
+}
+
+
 

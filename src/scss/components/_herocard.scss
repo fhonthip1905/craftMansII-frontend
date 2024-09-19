@@ -1,0 +1,69 @@
+.container {
+    padding: 20px;
+  }
+  
+  .hero-text-header {
+    color: $color-y;
+    font-size: $font-header;
+    font-weight: $font-weight-bold;
+  }
+  
+  .hero-text-content {
+    color: $color-w;
+    font-size: $font-content;
+    font-weight: $font-weight-regular;
+  }
+  
+  .img-fluid {
+    border-radius: 20px;
+    max-width: 100%; // ทำให้ภาพ responsive
+    height: auto; // รักษาสัดส่วนภาพ
+    padding: 0;
+  }
+  
+  @media (min-width: 2400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 2404px;
+    }
+}
+  // Mobile devices
+  @media (max-width: 768px) {
+    .hero-text-header {
+      font-size: $font-detail; // ลดขนาดฟอนต์สำหรับหน้าจอเล็ก
+    }
+  
+    .hero-text-content {
+      font-size: $font-detail; // ลดขนาดฟอนต์สำหรับหน้าจอเล็ก
+    }
+  
+    .container {
+      padding: 10px; // ลด padding สำหรับหน้าจอเล็ก
+    }
+  
+    .img-fluid {
+      border-radius: 10px; // ลด radius บนมือถือ
+    }
+  }
+  
+  // Tablet devices 
+  @media (max-width: 1024px) {
+    .hero-text-header {
+      font-size: $font-content; // ปรับขนาดฟอนต์สำหรับแท็บเล็ต
+    }
+  
+    .hero-text-content {
+      font-size: $font-content; // ปรับขนาดฟอนต์สำหรับแท็บเล็ต
+    }
+  }
+  
+  // Desktop devices
+  @media (min-width: 1024px) {
+    .hero-text-header {
+      font-size: $font-header; // ขนาดฟอนต์ปกติสำหรับเดสก์ท็อป
+    }
+  
+    .hero-text-content {
+      font-size: $font-content; // ขนาดฟอนต์ปกติสำหรับเดสก์ท็อป
+    }
+  }
+  

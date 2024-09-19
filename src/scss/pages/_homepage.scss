@@ -1,0 +1,11 @@
+.content {
+    width: 80%;
+    min-height: calc(100vh - 277px);
+}
+
+ // Mobile devices
+ @media (max-width: 768px) {
+    .content{
+        min-height: calc(100vh - 240px);
+    }
+ }

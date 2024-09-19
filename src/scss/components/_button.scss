@@ -1,5 +1,43 @@
 @import '../abstracts/variables';
 
-.btn-test{
-    background-color: $color-y;
- }
+.btn-hero {
+    width: 260px;
+    margin-bottom: 2rem;
+
+    @media (max-width: 1000px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
+    @media (max-width: 480px) {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+}
+
+.btn-outline-yellow {
+    @include important-button-outline-yellow;
+}
+
+.btn-outline-yellow:hover {
+    @include important-button-yellow;
+}
+
+.btn-yellow {
+    @include important-button-yellow;
+}
+
+.btn-yellow:hover {
+    @include important-button-outline-yellow;
+}
+
+.btn-yellow-02 {
+    @include important-button-outline-yellow;
+    background-color: $bg-component;
+} 

@@ -1,0 +1,35 @@
+// Desktop devices
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-component; // กำหนดสีพื้นหลังตามต้องการ
+    padding: 20px 0;
+
+    .container {
+      display: flex;
+      flex-direction: column; // จัดเรียงเนื้อหาในแนวตั้ง
+      align-items: center;
+      justify-content: center;
+    }
+  
+      p{
+        color: $color-y;
+        margin-top: 10px; // เพิ่มระยะห่างเล็กน้อยระหว่างโลโก้กับข้อความ
+        font-size: $font-detail;
+        text-align: center;
+      }
+    
+  }
+  
+ // Mobile devices
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px 0;
+      
+      p {
+        font-size: $font-detail-mobile; // ลดขนาดฟอนต์บนมือถือ
+      }
+    }
+  }
+  

@@ -18,7 +18,13 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.nav-rigth{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
 // Mobile devices
 @media (max-width: 768px) {
   .outter {
@@ -26,11 +32,17 @@
   }
 
   .container-inner {
-    width: 90%; // เพิ่มพื้นที่ให้กับ container บนหน้าจอเล็ก
+    width: 100%; // เพิ่มพื้นที่ให้กับ container บนหน้าจอเล็ก
   }
 
   .container-fluid {
     align-items: flex-start; // จัดตำแหน่งให้อยู่ทางซ้าย
+  }
+  .nav-rigth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
   }
 
   .icon-user {
