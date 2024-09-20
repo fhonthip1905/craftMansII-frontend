@@ -1,4 +1,6 @@
+import BrandContianer from "../components/BrandContianer";
 import HeroContainer from "../components/HeroContainer";
+import NewsContianer from "../components/NewsContianer";
 import ProductContainer from "../components/ProductContainer";
 
 export default function HomePage() {
@@ -6,6 +8,8 @@ export default function HomePage() {
     <div className="container content">
       <HeroContainer/>
       <ProductContainer/>
+      <BrandContianer/>
+      <NewsContianer/>
     </div>
   );
 }

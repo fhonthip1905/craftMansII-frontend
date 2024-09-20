@@ -1,0 +1,20 @@
+
+.img-list {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+
+    // Desktop
+    @media (min-width: 1024px) {
+        width: 200px;
+        height: 200px;
+    }
+
+    // Tablet 
+    @media (max-width: 1024px) {
+        width: 150px;
+        height: 150px;
+    }
+}

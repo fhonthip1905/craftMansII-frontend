@@ -14,10 +14,11 @@ $font-detail-mobile: 14px;
 $font-detail: 16px;
 $font-content: 20px;
 $font-header: 36px;
+$font-header-mobile: 24px;
 $font-header-extra: 48px;
 
 // Font weights
-$font-weight-regular: 400;
+$font-weight-regular: 200;
 $font-weight-bold: 700;
 $font-weight-extra-bold: 800;
 
@@ -35,5 +36,31 @@ $font-weight-extra-bold: 800;
     background-color: $color-y;
 }
 
+@mixin important-card-title {
+    color: $color-y;
+    font-size: $font-content;
+    font-weight: $font-weight-bold;
+}
+
+@mixin important-card-text {
+    color: $color-w;
+    font-size: $font-detail;
+}
+
+@mixin important-title-y {
+        color: $color-y;
+        font-size: $font-header;
+        font-weight: $font-weight-bold;
+}
+@mixin important-title-w {
+        color: $color-w;
+        font-size: $font-header;
+        font-weight: $font-weight-bold;
+}
+@mixin important-title-detail {
+        color: $color-w;
+        font-size: $font-content;
+        font-weight: $font-weight-bold;
+}
 
 

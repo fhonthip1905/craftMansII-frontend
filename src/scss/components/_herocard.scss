@@ -48,7 +48,7 @@
   // Tablet devices 
   @media (max-width: 1024px) {
     .hero-text-header {
-      font-size: $font-content; // ปรับขนาดฟอนต์สำหรับแท็บเล็ต
+      font-size: $font-header-mobile; // ปรับขนาดฟอนต์สำหรับแท็บเล็ต
     }
   
     .hero-text-content {

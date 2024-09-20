@@ -1,4 +1,4 @@
-import bottle from "../assets/products/cnx-bottle.png";
+import bottle from "../assets/products/sierra-nevada.png";
 
 export default function ProductCard() {
   return (

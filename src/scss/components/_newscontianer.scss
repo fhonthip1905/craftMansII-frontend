@@ -1,0 +1,37 @@
+.contianer-news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 24px;
+}
+.card-news{
+background-color: transparent;
+border: unset;
+}
+.card-body{
+     // Tablet 
+     @media (max-width: 764px) {
+       padding-bottom: 40px;
+       
+    }
+}
+img.card-img-news{
+    width: 100%;
+    border-radius: 6px;
+    border: unset;
+    padding: 10px;
+}
+
+.btn-readmore{
+    text-decoration: none;
+    color: $color-y;
+    cursor: pointer;
+}
+
+p.card-text{
+    font-weight: $font-weight-regular;
+    font-size: $font-detail-mobile;
+}
+h5.card-title{
+    color: $color-w;
+}

@@ -9,7 +9,55 @@
 @import './scss/components/herocard';
 @import './scss/components/productcard';
 @import './scss/components/productcontainer';
+@import './scss/components/brandcard';
+@import './scss/components/newscontianer';
 
 .container-background{
     background-color: $bg-page;
 }
+.card-title {
+    @include important-card-title
+}
+.card-text {
+    @include important-card-text
+}
+
+.col-title-y{
+   @include important-title-y
+}
+.col-title-w{
+    @include important-title-w
+}
+.col-title-detail {
+    @include important-title-detail
+}
+.heading-detail {
+    font-weight: $font-weight-regular;
+    padding-bottom: 30px;
+    font-size: $font-detail-mobile;
+}
+
+ // Mobile devices
+ @media (max-width: 768px) {
+    .col-title-y{
+        @include important-title-y;
+        font-size:$font-header-mobile;
+     }
+    .col-title-w{
+        @include important-title-w;
+        font-size:$font-header-mobile;
+     }
+ }
+
+  // Tablet devices 
+  @media (max-width: 1024px) {
+    .col-title-y{
+        @include important-title-y;
+        font-size:$font-header;
+    }
+    .col-title-w{
+        @include important-title-w;
+        font-size:$font-header;
+     }
+  }
+
